@@ -64,12 +64,13 @@ Usage
    * Tap Copy Link on any card to copy the direct review URL to your clipboard.
  * Clear Cache:
    * Tap 🗑️ Clear Database in the upper right corner to wipe stored reviews and reclaim local storage.
-Project Structure
+
+## Project Structure
+
+```text
 curly-lamp/
-├── requirements.txt    # Python dependencies
-├── web.py              # Main Flask application, scraper core & UI
-└── README.md           # Documentation
-
-License
-Distributed under the MIT License. Free for personal and educational use.
-
+├── .gitignore          # Excludes SQLite database and cache files from Git
+├── LICENSE             # MIT License terms and distribution rights
+├── README.md           # Documentation, setup guide, and usage instructions
+├── requirements.txt    # Python package dependencies (Flask, curl_cffi, etc.)
+└── web.py              # Main single-file Flask dashboard, scraper, and SQLite core
