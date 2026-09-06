@@ -31,7 +31,7 @@ ReviewLens bypasses standard client limitations by multi-threading requests acro
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/Debugcodec/curly-lamp.git](https://github.com/Debugcodec/curly-lamp.git)
+git clone https://github.com/Debugcodec/curly-lamp.git
 cd curly-lamp
 
 ```
